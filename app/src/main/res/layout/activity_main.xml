@@ -81,4 +81,35 @@
         android:layout_height="wrap_content"
         app:barrierDirection="end"
         app:constraint_referenced_ids="tvEmail,tvName,tvPhoneNumber" />
+
+    <Button
+        android:id="@+id/btnChain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Button"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnChain2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnChain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnChain3"
+        app:layout_constraintStart_toEndOf="@id/btnChain1" />
+
+    <Button
+        android:id="@+id/btnChain3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnChain2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
