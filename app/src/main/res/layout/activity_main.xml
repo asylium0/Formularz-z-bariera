@@ -25,7 +25,6 @@
         android:layout_marginBottom="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/etEmail"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -44,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:text="TextView"
+        android:text="@string/tv_email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -57,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="88dp"
-        android:text="TextView"
+        android:text="@string/tv_name"
         app:layout_constraintBottom_toTopOf="@+id/tvEmail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBaseline_toBaselineOf = "@id/etName"/>
@@ -68,8 +67,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="88dp"
-        android:text="TextView"
+        android:text="@string/tv_phone_number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvEmail"
         app:layout_constraintBaseline_toBaselineOf = "@id/etPhoneNumber"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
