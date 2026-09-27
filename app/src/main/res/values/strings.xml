@@ -3,4 +3,7 @@
     <string name="tv_name">Imię: </string>
     <string name="tv_email">E-Mail: </string>
     <string name="tv_phone_number">Numer telefonu komórkowego: </string>
+    <string name="btn_chain_1">Rejestruj</string>
+    <string name="btn_chain_2">Rejestruj 2</string>
+    <string name="btn_chain_3">Rejestruj 3</string>
 </resources>
