@@ -47,7 +47,9 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBaseline_toBaselineOf = "@id/etEmail"/>
+
 
     <TextView
         android:id="@+id/tvName"
@@ -57,7 +59,8 @@
         android:layout_marginBottom="88dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/tvEmail"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBaseline_toBaselineOf = "@id/etName"/>
 
     <TextView
         android:id="@+id/tvPhoneNumber"
@@ -67,5 +70,6 @@
         android:layout_marginTop="88dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        app:layout_constraintBaseline_toBaselineOf = "@id/etPhoneNumber"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
